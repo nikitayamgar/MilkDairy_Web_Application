@@ -1,0 +1,8 @@
+﻿<h1>Garbage Bin Management using IOT</h1><hr>
+Hi <b><%UserName%></b>,
+<p>
+Welcome to Garbage Bin Management using IOT Password recovery process
+</p>
+<p>
+Your newly generated password <%Password%>
+</p>

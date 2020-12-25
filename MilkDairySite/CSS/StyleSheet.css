@@ -1,0 +1,247 @@
+﻿html, body
+{
+    font-family: tahoma;
+    font-size: 10pt;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    -background-image: url('../images/cbackground.jpg');
+}
+#header
+{
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px solid white; /*background-color:Aqua;*/ /*box-shadow:4px 4px 4px yellow;*/
+    /*background-color: #0043A8;*/
+    background: linear-gradient(#11A1D6,#0E86B2);
+    -background-image: url('../Images/header.jpg');
+    border-bottom-color: #FFFF00;
+}
+#header img
+{
+    position:absolute;
+    left:0;
+    top:0;
+    
+    width:140px;
+    height:100px;
+    
+}
+#header h1
+{
+    
+    text-shadow:2px 2px 4px yellow;
+    position:absolute;
+    left:300px;
+    top:25px;
+    right:200px;
+    margin-top:0px;
+    font-size:35px;
+    
+    
+    font:"Book Antiqua"; 
+    color:White;
+    font-variant:small-caps;
+    letter-spacing:6px;
+    
+    
+}
+#header h2
+{
+    
+    text-shadow:4px 4px 4px gray;
+    position:absolute;
+    left:450px;
+    top:5px;
+    margin-top:0px;
+    font-size:20px;
+    
+    
+    font:"Book Antiqua"; 
+    color:White;
+    font-variant:small-caps;
+    letter-spacing:1px;
+    
+    
+    
+}
+#header #rightsection
+{
+    position:absolute;
+    right:0;
+    top:0px;
+    padding-left:10px;
+    width:200px;
+    color:White;
+}
+#header #rightsection a
+{
+    text-decoration:none;
+    color:White;
+    font-weight:bold;
+}
+#header #rightsection a:hover
+{
+    font-weight:bold;
+    color:White;
+    text-shadow:4px 4px 4px yellow;
+    text-decoration:underline;
+}
+#menubar
+{   
+    padding-left:0;
+    height:25px;
+    margin:0;
+    /*background-color:#8C24B9;*/
+        /*height:25px;*/
+        
+}
+.menuback
+{
+    -background: linear-gradient(#11A1D6,#0E86B2);
+    background-image: url('../Images/header.jpg');
+    text-shadow: 1px 1px 1px #0E86B2;
+}
+#contents
+{
+    height: auto;
+    Padding-bottom: 20px;
+    
+}
+
+/*#contents div table
+{
+    border: medium solid #836AC1;
+}*/
+#footer
+{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-top:10px;
+    height: 20px;
+    text-align: center;
+    background-color: #0E86B2;
+    color: #FFFFFF;
+}
+
+.txt
+{
+    border: thin solid #808080;
+}
+.head
+{
+    background: linear-gradient(#11A1D6,#0E86B2);
+    text-shadow: 1px 1px 1px #0E86B2;
+    line-height: 2.5em;
+    color: #FFF;
+    font-weight:bold;
+}
+
+.btn
+{
+    background: linear-gradient(#11A1D6,#0E86B2);
+    text-shadow: 1px 1px 1px #0E86B2;
+    line-height: 2.5em;
+    border-radius: 4px;
+}
+input[type='text'], input[type='password']
+{
+-width: 200px;
+-height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+-font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+input[type='text']:hover, input[type='password']:hover
+{
+-width: 200px;
+-height: 29px;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 8px;
+font-weight: 200;
+-font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+select
+{
+-width: 200px;
+-height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+-font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+    height: 20px;
+}
+select:hover
+{
+-width: 200px;
+-height: 29px;
+border-radius: 3px;
+border: 1px solid #CCC;
+font-weight: 200;
+-font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+textarea
+{
+-width: 200px;
+-height: 90px;
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+-font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+textarea:hover
+{
+-width: 200px;
+-height: 90px;
+border-radius: 3px;
+border: 1px solid #aaa;
+padding: 8px;
+font-weight: 200;
+-font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}
+
+input[type='submit']
+{
+    width: 150px;
+    height: 34px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(#D60A0A,#B20808);
+    
+}
+input[type='submit']:hover
+{
+width: 150px;
+height: 34px;
+border: 2px solid white;
+background-color:#000000;
+-color:#fff;
+background-color: #CCFF66;
+font-weight:bold;
+color:white;
+}
+.keepsp
+{
+    margin-bottom:20px;
+}
